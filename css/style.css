@@ -4,4 +4,22 @@ body{
 
 h1{
   font-size: 5vw;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color:rgb(212, 22, 255);
+  border: 2px dotted  rgb(163, 27, 216);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;;
+
+  }
+
+p{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  font-display:inherit;
+  color: rgb(67, 3, 71);
 }
