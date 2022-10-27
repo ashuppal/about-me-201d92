@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(247, 162, 200);
+  background-color: rgb(195, 198, 234);
 }
 
 h1{
@@ -7,19 +7,58 @@ h1{
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  color:rgb(212, 22, 255);
+  color:rgb(42, 8, 154);
   border: 2px dotted  rgb(163, 27, 216);
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 10px;;
 
   }
+h2{
+  padding-left: 20px; ;
+  text-decoration-line: underline;
+
+}
+ol.education li{
+  color:rgb(4, 65, 116);
+  font-size: large;
+  padding-left: 20px;
+font-size: large;
+  
+}
 
 p{
   padding-left: 20px;
   padding-right: 20px;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: large;
+  /* font-size: large; */
   font-display:inherit;
   color: rgb(67, 3, 71);
+  line-height: 2;
+}
+
+p.name{
+  margin-bottom: 1rem;
+  color:rgb(0, 0, 0);
+}
+ol.places li {
+  margin-left: 20px;
+  color:rgb(160, 33, 214);
+  font-size: large;
+  
+}
+
+p.places{
+  color:black;
+  text-decoration-line: underline;
+  font-size: large;
+}
+
+
+ol.experience{
+  color:rgb(4, 65, 116);
+  font-size: large;
+  padding-left: 20px;
+  font-size: large;
+ 
 }
