@@ -1,78 +1,101 @@
-// "use strict";
 
-// let visitorName = prompt("what is your name?");
+"use strict";
 
-// console.log("User has been asked to enter the name");
+let visitorName = prompt("what is your name?");
 
-// alert(
-//   `Welcome to my site ${visitorName}! Please entered yes or no for the following questions`
-// );
+console.log("User has been asked to enter the name");
 
-// console.log("User entered their name");
+alert(
+  `Welcome to my site ${visitorName}! Please entered yes or no for the following questions`
+);
 
-// let questionOneGuess = prompt("Do I have pets?").toLowerCase();
+console.log("User entered their name");
+function questionOne(){
+let questionOneGuess = prompt("Do I have pets?").toLowerCase();
 
-// if (questionOneGuess === "yes" || questionOneGuess === "y") {
-//   alert("correct, I have a dog - a goldern retriever!");
-// } else if (questionOneGuess === "no" || questionOneGuess === "n") {
-//   alert("Incorrect, I have a pet -  a golden retriever!");
-// } else {
-//   alert("Invalid input: Enter either yes,y or no/n");
-// }
+if (questionOneGuess === "yes" || questionOneGuess === "y") {
+  alert("correct, I have a dog - a goldern retriever!");
+} else if (questionOneGuess === "no" || questionOneGuess === "n") {
+  alert("Incorrect, I have a pet -  a golden retriever!");
+} else {
+  alert("Invalid input: Enter either yes,y or no/n");
+}
+}
 
-// console.log("User entered their response for the pet question");
+questionOne();
 
-// let questionTwoGuess = prompt("Do I love to hike?");
-// questionOneGuess.toLowerCase();
+console.log("User entered their response for the pet question");
 
-// if (questionTwoGuess === "yes" || questionTwoGuess === "y") {
-//   alert("correct, I love to hike with my dog!");
-// } else if (questionTwoGuess === "no" || questionTwoGuess === "n") {
-//   alert("Incorrect, I actually love to hike with my dog!");
-// } else {
-//   alert("Invalid input: Enter either yes/y or no/n");
-// }
+function questionTwo(){
+let questionTwoGuess = prompt("Do I love to hike?");
+questionOneGuess.toLowerCase();
 
-// console.log("User entered their response for the hike question");
+if (questionTwoGuess === "yes" || questionTwoGuess === "y") {
+  alert("correct, I love to hike with my dog!");
+} else if (questionTwoGuess === "no" || questionTwoGuess === "n") {
+  alert("Incorrect, I actually love to hike with my dog!");
+} else {
+  alert("Invalid input: Enter either yes/y or no/n");
+}
+}
+questionTwo();
 
-// let questionThreeGuess = prompt("Do I like to dance?");
-// questionThreeGuess.toLowerCase();
+console.log("User entered their response for the hike question");
 
-// if (questionThreeGuess === "yes" || questionThreeGuess === "y") {
-//   alert("Incorrect, I think I am a terrible dancer");
-// } else if (questionThreeGuess === "no" || questionThreeGuess === "n") {
-//   alert("Correct, I have two left feet");
-// } else {
-//   alert("Invalid input: Enter either yes/y or no/n");
-// }
+function questionThree(){
 
-// console.log("User entered their response for the dance question");
+let questionThreeGuess = prompt("Do I like to dance?");
+questionThreeGuess.toLowerCase();
 
-// let questionFourGuess = prompt("Do I like ice-cream?");
-// questionThreeGuess.toLowerCase();
+if (questionThreeGuess === "yes" || questionThreeGuess === "y") {
+  alert("Incorrect, I think I am a terrible dancer");
+} else if (questionThreeGuess === "no" || questionThreeGuess === "n") {
+  alert("Correct, I have two left feet");
+} else {
+  alert("Invalid input: Enter either yes/y or no/n");
+}
 
-// if (questionFourGuess === "yes" || questionFourGuess === "y") {
-//   alert("nope! Weird, I know! but I donot eat ice cream ");
-// } else if (questionFourGuess === "no" || questionFourGuess === "n") {
-//   alert("Right on! I am not carzy about ice cream");
-// } else {
-//   alert("Invalid input: Enter either yes/y or no/n");
-// }
+}
+questionThree();
 
-// console.log("User entered their response for the ice cream question");
+console.log("User entered their response for the dance question");
 
-// let questionFiveGuess = prompt("Do I like to code?");
-// questionThreeGuess.toLowerCase();
+function questionFour(){
 
-// if (questionFiveGuess === "yes" || questionFiveGuess === "y") {
-//   alert("spot on! That is why I am here!");
-// } else if (questionFiveGuess === "no" || questionFiveGuess === "n") {
-//   alert("Incorrect, I love to code!");
-// } else {
-//   alert("Invalid input: Enter either yes/y or no/n");
-// }
+let questionFourGuess = prompt("Do I like ice-cream?");
+questionThreeGuess.toLowerCase();
 
-// console.log("User entered their response for the coding question");
+if (questionFourGuess === "yes" || questionFourGuess === "y") {
+  alert("nope! Weird, I know! but I donot eat ice cream ");
+} else if (questionFourGuess === "no" || questionFourGuess === "n") {
+  alert("Right on! I am not carzy about ice cream");
+} else {
+  alert("Invalid input: Enter either yes/y or no/n");
+}
+}
+
+questionFour();
+
+console.log("User entered their response for the ice cream question");
+
+function questionFive(){
+
+let questionFiveGuess = prompt("Do I like to code?");
+questionThreeGuess.toLowerCase();
+
+if (questionFiveGuess === "yes" || questionFiveGuess === "y") {
+  alert("spot on! That is why I am here!");
+} else if (questionFiveGuess === "no" || questionFiveGuess === "n") {
+  alert("Incorrect, I love to code!");
+} else {
+  alert("Invalid input: Enter either yes/y or no/n");
+}
+
+}
+
+questionFive();
+
+console.log("User entered their response for the coding question");
 
 let myNum = 6;
 let guessesSoFar = 0;
