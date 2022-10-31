@@ -1,11 +1,20 @@
 'use strict'
-
 let visitorName = prompt('what is your name?')
 console.log('User has been asked to enter the name')
 alert(
   `Welcome to my site ${visitorName}! Please entered yes or no for the following questions`
 )
-console.log('User entered their name')
+console.log('User entered their name');
+
+let box = prompt('Are you ready to start?').toLowerCase();
+if(box==="yes" || box==='y'){
+  alert('Let us start!');
+}
+
+else if(box==="no" || box ==='n'){
+  alert('Whatever, you are going to play.')
+}
+
 
 function questionOne () {
   let questionOneGuess = prompt('Do I have pets?').toLowerCase()
@@ -22,8 +31,8 @@ questionOne()
 console.log('User entered their response for the pet question')
 
 function questionTwo () {
-  let questionTwoGuess = prompt('Do I love to hike?')
-  questionTwoGuess.toLowerCase()
+  let questionTwoGuess = prompt('Do I love to hike?').toLowerCase();
+ 
 
   if (questionTwoGuess === 'yes' || questionTwoGuess === 'y') {
     alert('correct, I love to hike with my dog!')
@@ -38,8 +47,8 @@ questionTwo()
 console.log('User entered their response for the hike question')
 
 function questionThree () {
-  let questionThreeGuess = prompt('Do I like to dance?')
-  questionThreeGuess.toLowerCase()
+  let questionThreeGuess = prompt('Do I like to dance?').toLowerCase();
+ 
 
   if (questionThreeGuess === 'yes' || questionThreeGuess === 'y') {
     alert('Incorrect, I think I am a terrible dancer')
@@ -53,8 +62,8 @@ questionThree()
 console.log('User entered their response for the dance question')
 
 function questionFour () {
-  let questionFourGuess = prompt('Do I like ice-cream?')
-  questionFourGuess.toLowerCase()
+  let questionFourGuess = prompt('Do I like ice-cream?').toLowerCase();
+
 
   if (questionFourGuess === 'yes' || questionFourGuess === 'y') {
     alert('nope! Weird, I know! but I donot eat ice cream ')
@@ -68,8 +77,8 @@ questionFour()
 console.log('User entered their response for the ice cream question')
 
 function questionFive () {
-  let questionFiveGuess = prompt('Do I like to code?')
-  questionFiveGuess.toLowerCase()
+  let questionFiveGuess = prompt('Do I like to code?').toLowerCase();
+
 
   if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
     alert('spot on! That is why I am here!')
@@ -150,10 +159,13 @@ function questionSeven () {
         guessedRight = true
       }
     }
-    guessFood--
+    guessFood--;
   }
   if (guessedRight === true) {
     alert('You have guessed it right! My favorite foods are: ' + myFavoriteFood)
+  }
+  else{
+    alert('bummer! My favorite foods are ' + myFavoriteFood)
   }
 }
 questionSeven()
